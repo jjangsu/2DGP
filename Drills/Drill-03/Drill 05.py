@@ -184,6 +184,7 @@ def go_to_203_535():
         delay(0.01)
     pass
 
+
 def move_to_xy():
     go_to_132_243()
     go_to_535_470()
