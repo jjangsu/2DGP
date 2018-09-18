@@ -95,7 +95,23 @@ def go_to_316_225():
 
 
 def go_to_510_92():
-    pass
+    x, y = 316, 136
+    frame = 0
+    pitureY = 1
+    move_ratio_x = (510 - 316) // 40
+    move_ratio_y = (136 - 92) // 40
+
+    while (x <= 510 and y >= 92):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 100, pitureY * 100, 100, 100, x, y)
+        update_canvas()
+        frame = (frame + 1) % 10
+        x += move_ratio_x
+        y -= move_ratio_y
+        delay(0.02)
+
+
 def go_to_692_518():
     pass
 def go_to_682_336():
@@ -110,7 +126,7 @@ def move_to_xy():
     # go_to_535_470()
     # go_to_477_203()
     # go_to_715_136()
-    go_to_316_225()
+    # go_to_316_225()
     go_to_510_92()
     go_to_692_518()
     go_to_682_336()
