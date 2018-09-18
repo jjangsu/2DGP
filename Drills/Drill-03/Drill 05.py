@@ -9,15 +9,17 @@ def go_to_132_243():
     x, y = 203, 535
     frame = 0
     pitureY = 0
+    move_ratio_x = (203 - 132) // 40
+    move_ratio_y = (535 - 243) // 40
 
     while x > 132 and y > 243:
         clear_canvas()
         grass.draw(400, 30)
         character.clip_draw(frame * 100, pitureY * 100, 100, 100, x, y)
         update_canvas()
-        frame = (frame + 1) % 10
-        x -= 2
-        y -= 2
+        frame = (frame + 1) % 8
+        x -= move_ratio_x
+        y -= move_ratio_y
         delay(0.02)
 
 
