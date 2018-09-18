@@ -116,7 +116,7 @@ def go_to_692_518():
     x, y = 510, 136
     frame = 0
     pitureY = 1
-    move_ratio_x = (510 - 316) // 40
+    move_ratio_x = (692 - 510) // 40
     move_ratio_y = (518 - 136) // 40
 
     while (x <= 692 and y <= 518):
@@ -131,19 +131,66 @@ def go_to_692_518():
 
 
 def go_to_682_336():
-    pass
+    x, y = 692, 518
+    frame = 0
+    pitureY = 1
+    move_ratio_x = (692 - 682) // 40
+    move_ratio_y = (518 - 336) // 40
+
+    while (x >= 682 and y >= 336):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 100, pitureY * 100, 100, 100, x, y)
+        update_canvas()
+        frame = (frame + 1) % 10
+        x += move_ratio_x
+        y -= move_ratio_y
+        delay(0.02)
+
+
 def go_to_712_349():
-    pass
+    x, y = 682, 336
+    frame = 0
+    pitureY = 1
+    move_ratio_x = (712 - 682) // 10
+    move_ratio_y = (349 - 336) // 10
+
+    while (x <= 712 and y <= 349):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 100, pitureY * 100, 100, 100, x, y)
+        update_canvas()
+        frame = (frame + 1) % 10
+        x += move_ratio_x
+        y += move_ratio_y
+        delay(0.01)
+
+
 def go_to_203_535():
+    x, y = 712, 349
+    frame = 0
+    pitureY = 0
+    move_ratio_x = (712 - 203) // 40
+    move_ratio_y = (535 - 349) // 40
+
+    while (x >= 203 and y <= 535):
+        clear_canvas()
+        grass.draw(400, 30)
+        character.clip_draw(frame * 100, pitureY * 100, 100, 100, x, y)
+        update_canvas()
+        frame = (frame + 1) % 10
+        x -= move_ratio_x
+        y += move_ratio_y
+        delay(0.01)
     pass
 
 def move_to_xy():
-    # go_to_132_243()
-    # go_to_535_470()
-    # go_to_477_203()
-    # go_to_715_136()
-    # go_to_316_225()
-    # go_to_510_92()
+    go_to_132_243()
+    go_to_535_470()
+    go_to_477_203()
+    go_to_715_136()
+    go_to_316_225()
+    go_to_510_92()
     go_to_692_518()
     go_to_682_336()
     go_to_712_349()
