@@ -73,10 +73,8 @@ def make_circle():
         degree += 1
         delay(0.01)
 
-    pass
-
 while True:
-   #  make_rectangle()
+    make_rectangle()
     make_circle()
 
 close_canvas()
