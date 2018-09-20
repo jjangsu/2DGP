@@ -43,7 +43,10 @@ while running:
     move_x = (final_x - character_x) / 20
     move_y = (final_y - character_y) / 20
 
-    
+    if final_x - character_x < 0:
+        character_dir = 0
+    elif final_x - character_x > 0:
+        character_dir = 1
 
     character_x += move_x
     character_y += move_y
