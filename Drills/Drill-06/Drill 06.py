@@ -43,13 +43,15 @@ while running:
     move_x = (final_x - character_x) / 20
     move_y = (final_y - character_y) / 20
 
+    character_x += move_x
+    character_y += move_y
+
     if final_x - character_x < 0:
         character_dir = 0
     elif final_x - character_x > 0:
         character_dir = 1
-
-    character_x += move_x
-    character_y += move_y
+    elif final_x - character_x == 0:
+        character_dir = 3
 
     clear_canvas()
     kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
