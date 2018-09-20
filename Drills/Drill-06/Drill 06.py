@@ -19,25 +19,8 @@ def handle_events():
            character_dir = 1
        elif event.type == SDL_MOUSEBUTTONDOWN:
            final_x, final_y = event.x, KPU_HEIGHT - 1 - event.y
-
-           character_move(final_x, final_y)
        elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
            running = False
-
-
-def character_move(final_x, final_y):
-    global character_x, character_y
-    move_x = (final_x - character_x) / 20
-    move_y = (final_y - character_y) / 20
-
-    character_x = character_x + move_x
-    character_y = character_y + move_y
-
-    while move_x == final_x and move_y == final_y:
-        character.clip_draw(frame * 100, 100 * character_dir, 100, 100, character_x, character_y)
-
-
-
 
 
 open_canvas(KPU_WIDTH, KPU_HEIGHT)
@@ -52,15 +35,23 @@ frame = 0
 hide_cursor()
 character_dir = 3
 
+final_x = character_x
+final_y = character_y
+
 
 while running:
+    move_x = (final_x - character_x) / 20
+    move_y = (final_y - character_y) / 20
+
+    character_x += move_x
+    character_y += move_y
+
     clear_canvas()
     kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
     mouse.clip_draw(0, 0, 50, 50, x, y)
     character.clip_draw(frame * 100, 100 * character_dir, 100, 100, character_x, character_y)
     update_canvas()
     frame = (frame + 1) % 8
-
     delay(0.02)
     handle_events()
 
