@@ -25,14 +25,17 @@ mouse = load_image('hand_arrow.png')
 
 running = True
 x, y = KPU_WIDTH // 2, KPU_HEIGHT // 2
+character_x, character_y = KPU_WIDTH // 2, KPU_HEIGHT // 2
 frame = 0
 hide_cursor()
+character_dir = 3
 
 
 while running:
     clear_canvas()
     kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
     mouse.clip_draw(0, 0, 50, 50, x, y)
+    character.clip_draw(frame * 100, 100 * character_dir, 100, 100, character_x, character_y)
     update_canvas()
     frame = (frame + 1) % 8
 
