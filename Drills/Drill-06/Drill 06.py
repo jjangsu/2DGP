@@ -18,7 +18,7 @@ def handle_events():
            x, y = event.x, KPU_HEIGHT - 1 - event.y
            character_dir = 1
        elif event.type == SDL_MOUSEBUTTONDOWN:
-           final_x, final_y = event.x, KPU_HEIGHT - 1 - event.y
+           final_x, final_y = event.x - 25, KPU_HEIGHT - 1 - event.y + 25
        elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
            running = False
 
@@ -42,6 +42,8 @@ final_y = character_y
 while running:
     move_x = (final_x - character_x) / 20
     move_y = (final_y - character_y) / 20
+
+    
 
     character_x += move_x
     character_y += move_y
