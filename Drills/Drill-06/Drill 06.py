@@ -6,6 +6,8 @@ KPU_WIDTH, KPU_HEIGHT = 1280, 1024
 def handle_events():
    global running
    global x, y
+   global character_dir
+   global final_x, final_y
 
    events = get_events()
    for event in events:
@@ -14,9 +16,19 @@ def handle_events():
        elif event.type == SDL_MOUSEMOTION:
            x, y = event.x, KPU_HEIGHT - 1 - event.y
            character_dir = 1
+       elif event.type == SDL_MOUSEBUTTONDOWN:
+           final_x, final_y = event.x, KPU_HEIGHT - 1 - event.y
        elif event.type == SDL_KEYDOWN and event.key == SDLK_ESCAPE:
            running = False
 
+
+def character_move(final_x, final_y):
+    move_x =  final_x / 10
+    move_y = final_y / 10
+
+    character.clip_draw(frame * 100, 100 * character_dir, 100, 100, character_x, character_y)
+
+    
 
 open_canvas(KPU_WIDTH, KPU_HEIGHT)
 kpu_ground = load_image('KPU_GROUND.png')
@@ -35,7 +47,6 @@ while running:
     clear_canvas()
     kpu_ground.draw(KPU_WIDTH // 2, KPU_HEIGHT // 2)
     mouse.clip_draw(0, 0, 50, 50, x, y)
-    character.clip_draw(frame * 100, 100 * character_dir, 100, 100, character_x, character_y)
     update_canvas()
     frame = (frame + 1) % 8
 
