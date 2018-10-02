@@ -79,6 +79,9 @@ def draw_line(p1, p2):
         draw_point((x,y))
     draw_point(p2)
 
+    def draw_character:
+        pass
+
 
 prepare_turtle_canvas()
 
@@ -88,7 +91,7 @@ prepare_turtle_canvas()
 #points = [(-300, 200), (400, 350), (300, -300), (-200, -200)]
 #size = len(points)
 
-size = 10
+size = 20
 points = [(random.randint(-500, 500), random.randint(-350, 350)) for i in range(size)]
 
 n = 1
