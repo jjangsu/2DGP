@@ -123,9 +123,6 @@ def character_draw(p1, p2, p3, p4):
         # frame = (frame + 1) % 8
         delay(0.02)
 
-
-
-    #character.clip_draw(100, 100, 100, 100, tmp_x, tmp_y)
     update_canvas()
 
 
