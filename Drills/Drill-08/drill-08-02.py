@@ -99,7 +99,8 @@ def draw_curve_4_points(p1, p2, p3, p4):
     draw_point(p4)
 
 
-
+def character_draw(p1, p2, p3, p4):
+    pass
 
 
 prepare_turtle_canvas()
