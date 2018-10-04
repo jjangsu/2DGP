@@ -1,6 +1,6 @@
 import turtle
 import random
-
+from pico2d import*
 
 def stop():
     turtle.bye()
@@ -100,19 +100,34 @@ def draw_curve_4_points(p1, p2, p3, p4):
 
 
 def character_draw(p1, p2, p3, p4):
-    pass
+    global KPU, character
+    character_dir = 3
+    frame = 0
+
+    for i in range(0, 100, 2):
+        t = i / 100
+        x = ((-t ** 3 + 2 * t ** 2 - t) * p1[0] + (3 * t ** 3 - 5 * t ** 2 + 2) * p2[0] + (
+                    -3 * t ** 3 + 4 * t ** 2 + t) * p3[0] + (t ** 3 - t ** 2) * p4[0]) / 2
+        y = ((-t ** 3 + 2 * t ** 2 - t) * p1[1] + (3 * t ** 3 - 5 * t ** 2 + 2) * p2[1] + (
+                    -3 * t ** 3 + 4 * t ** 2 + t) * p3[1] + (t ** 3 - t ** 2) * p4[1]) / 2
+        clear_canvas()
+        KPU.draw(1280 / 2, 1024 / 2)
+        character.clip_draw(frame * 100, character_dir * 100, 100, 100, x, y)
+        character.clip_draw(100, 100, 5, 5, x, y)
+        update_canvas()
+        # frame = (frame + 1) % 8
+        delay(0.02)
 
 
-prepare_turtle_canvas()
+open_canvas(1280, 1024)
+character = load_image('animation_sheet.png')
+KPU = load_image('KPU_GROUND.png')
 
-size = 3
-points = [(random.randint(-400, 400), random.randint(-300, 300)) for i in range(size)]
+size = 10
+points = [(random.randint(0, 1280-200), random.randint(0, 1024-200)) for i in range(size)]
 
-# while True:
-# for i in range(size):
-#     draw_curve_3_points(points[0], points[1], points[2])
+n = 3
+while True:
+    character_draw(points[n - 3], points[n - 2], points[n - 1], points[n])
+    n = (n+1) % size
 
-draw_curve_4_points((-350, -100), (-50, 200), (150, -100), (350, 300))
-
-
-turtle.done()
