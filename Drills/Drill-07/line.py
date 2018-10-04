@@ -1,5 +1,6 @@
 import turtle
 import random
+from pico2d import*
 
 
 def stop():
@@ -79,26 +80,36 @@ def draw_line(p1, p2):
         draw_point((x,y))
     draw_point(p2)
 
-    def draw_character:
-        pass
 
+def draw_character(p1, p2):
+    global character
+    #draw_big_point(p1)
+    #draw_big_point(p2)
 
-prepare_turtle_canvas()
+    frame = 0
+    character_dir = 1
 
-# draw_line_basic((-200, 200), (200, 100))
-# draw_line((-200, 200), (200, 200))
+    for i in range(0, 100 + 1, 5):
+        t = i / 100
+        x = (1-t)*p1[0]+t*p2[0]
+        y = (1-t)*p1[1]+t*p2[1]
+        clear_canvas()
+        KPU.draw(1280/2, 1024/2)
+        character.clip_draw(frame * 100, character_dir * 100, 100, 100, x, y)
+        update_canvas()
+        frame = (frame + 1) % 8
+        delay(0.02)
 
-#points = [(-300, 200), (400, 350), (300, -300), (-200, -200)]
-#size = len(points)
+open_canvas(1280, 1024)
+
+character = load_image('animation_sheet.png')
+KPU = load_image('KPU_GROUND.png')
 
 size = 20
-points = [(random.randint(-500, 500), random.randint(-350, 350)) for i in range(size)]
+points = [(random.randint(0, 1280), random.randint(0, 1024)) for i in range(size)]
 
 n = 1
 
 while True:
-    draw_line(points[n-1], points[n])
+    draw_character(points[n-1], points[n])
     n = (n + 1) % size
-
-
-turtle.done()
