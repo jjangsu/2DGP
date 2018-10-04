@@ -103,20 +103,31 @@ def character_draw(p1, p2, p3, p4):
     global KPU, character
     character_dir = 3
     frame = 0
+    global tmp_x, tmp_y
+
 
     for i in range(0, 100, 2):
+        if i > 95:
+            tmp_x, tmp_y = x, y
+
         t = i / 100
         x = ((-t ** 3 + 2 * t ** 2 - t) * p1[0] + (3 * t ** 3 - 5 * t ** 2 + 2) * p2[0] + (
                     -3 * t ** 3 + 4 * t ** 2 + t) * p3[0] + (t ** 3 - t ** 2) * p4[0]) / 2
         y = ((-t ** 3 + 2 * t ** 2 - t) * p1[1] + (3 * t ** 3 - 5 * t ** 2 + 2) * p2[1] + (
                     -3 * t ** 3 + 4 * t ** 2 + t) * p3[1] + (t ** 3 - t ** 2) * p4[1]) / 2
         clear_canvas()
-        KPU.draw(1280 / 2, 1024 / 2)
+        KPU.clip_draw(0, 0, 1280, 1024, 1280 / 2, 1024 / 2)
+        character.clip_draw(100, 100 * 3, 100, 100, tmp_x, tmp_y)
         character.clip_draw(frame * 100, character_dir * 100, 100, 100, x, y)
-        character.clip_draw(100, 100, 5, 5, x, y)
         update_canvas()
         # frame = (frame + 1) % 8
         delay(0.02)
+
+
+
+    #character.clip_draw(100, 100, 100, 100, tmp_x, tmp_y)
+    update_canvas()
+
 
 
 open_canvas(1280, 1024)
@@ -125,6 +136,7 @@ KPU = load_image('KPU_GROUND.png')
 
 size = 10
 points = [(random.randint(0, 1280-200), random.randint(0, 1024-200)) for i in range(size)]
+tmp_x, tmp_y = -100, -100
 
 n = 3
 while True:
