@@ -104,8 +104,6 @@ def character_draw(p1, p2, p3, p4):
     character_dir = 3
     frame = 0
     global tmp_x, tmp_y
-
-
     for i in range(0, 100, 2):
         if i > 95:
             tmp_x, tmp_y = x, y
@@ -124,7 +122,6 @@ def character_draw(p1, p2, p3, p4):
         delay(0.02)
 
     update_canvas()
-
 
 
 open_canvas(1280, 1024)
