@@ -50,6 +50,7 @@ class Big_Ball:
         self.image.clip_draw(0, 0, 41, 41, self.x, self.y)
 
 
+
 def handle_events():
     global running
     events = get_events()
