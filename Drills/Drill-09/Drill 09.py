@@ -40,6 +40,10 @@ def handle_events():
 # initialization code
 open_canvas()
 
+small_num = random.randint(5, 10)
+big_num = 20 - small_num
+
+
 team = [Boy() for i in range(11)]
 # boy = Boy()
 grass = Grass()
