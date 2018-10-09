@@ -11,11 +11,11 @@ class Grass:
 class Boy:
     def __init__(self):
         self.x, self.y = random.randint(100, 700), 90
-        self.frame = 0
+        self.frame = random.randint(0, 7)
         self.image = load_image('run_animation.png')
 
     def update(self):
-        self.frame = random.randint(0, 7) #  (self.frame + 1) % 8
+        self.frame = (self.frame + 1) % 8
         self.x += 5
 
     def draw(self):
@@ -73,7 +73,7 @@ big_balls = [Big_Ball() for i in range(big_num)]
 # boy = Boy()
 grass = Grass()
 
-running = True;
+running = True
 
 # game main loop code
 while running:
@@ -95,7 +95,6 @@ while running:
     for ball in big_balls:
         ball.draw()
     update_canvas()
-
     delay(0.05)
 
 # finalization code
