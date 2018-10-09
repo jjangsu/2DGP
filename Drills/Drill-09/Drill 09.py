@@ -23,7 +23,15 @@ class Boy:
         self.image.clip_draw(self.frame * 100, 0, 100, 100, self.x, self.y)
 
 class smallBall:
-    pass
+    def __init__(self):
+        self.x, self.y = random.randint(50, 700), 599
+        self.image = load_image('ball21x21/png')
+        self.move.y = random.randomint(5, 10)
+
+    def update(self):
+        self.y -= self.move_y
+        if self.y <= 65:
+            self.y = 65
 
 class bigBall:
     pass
