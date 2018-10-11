@@ -1,6 +1,7 @@
 from pico2d import *
 
 import game_framework
+import main_state
 
 class Pause_Advanced:
     def __init__(self):
@@ -34,6 +35,7 @@ def update():
 def draw():
     global pause
     clear_canvas()
+    main_state.draw()
     pause.update()
     pause.draw()
     update_canvas()
