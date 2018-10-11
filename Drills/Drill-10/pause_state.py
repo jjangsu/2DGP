@@ -8,6 +8,8 @@ class Pause:
         self.time = 0
 
     def update(self):
+        self.time = 1 - self.time
+        delay(0.1)
         pass
 
     def draw(self):
@@ -15,23 +17,33 @@ class Pause:
 
 
 def enter():
-    pass
+    global pause
+    pause = Pause()
 
 
 def exit():
-    pass
+    global pause
+    del pause
 
 
 def update():
-    pass
+    global pause
+    pause.update()
 
 
 def draw():
-    pass
+    global pause
+    clear_canvas()
+    pause.update()
+    pause.draw()
+    update_canvas()
 
 
 def handle_events():
-    pass
+    events = get_events()
+    for event in events:
+        if event.type == SDL_KEYDOWN and event.key == SDLK_p:
+            game_framework.pop_state()
 
 
 def pause():
