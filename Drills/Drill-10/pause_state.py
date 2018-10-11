@@ -1,14 +1,17 @@
 from pico2d import *
 
+import game_framework
+
 class Pause:
     def __init__(self):
-        pass
+        self.image = load_image('stop.png')
+        self.time = 0
 
     def update(self):
         pass
 
     def draw(self):
-        pass
+        self.image.clip_draw(0, 0, 90, 90, 400, 300)
 
 
 def enter():
