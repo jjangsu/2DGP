@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b041b167-8e77-487b-ba35-12d932bf77be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_framework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2DGP 기획 발표.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Brave Cookie sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Bright Cookie sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Run_ OvenBreak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect1_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch22_effect2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch22_effect/ch30_jelly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch23_effect2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch23_effect4_boom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch25_jelly/ch25_jelly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch28_jelly/ch28_jelly1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect11_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect11_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect12_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect12_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect13_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect13_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect21_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect22_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch29_effect/ch29_effect23_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_1_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_3_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_3_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_4_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_4_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_4_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_4_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_6_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_6_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_6_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_6_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_s_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_s_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_s_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch30_effect/ch30_effect_s_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch31_jelly/ch31_jelly1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch31_jelly/ch31_jelly2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_sdswing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_tb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01/ch38_tm01_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01_bg/ch38_tm01_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01_bg/ch38_tm01_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01_bg/ch38_tm01_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01_bg/ch38_tm01_bg4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch38_tm01_bg/ch38_tm01_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch39_effect/ch39_effect1_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch42_effect/ch42_effect1_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch42_effect/ch42_effect1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch42_effect/ch42_effect2_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch42_effect/ch42_effect2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch42_effect/ch42_effect3_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch42_effect/ch42_effect3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_effect/ch43_back_effect1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_effect/ch43_back_effect2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_effect/ch43_jelly_effect1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_effect/ch43_jelly_effect2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_effect/ch43_jelly_effect3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_front_effect/ch43_front_effect1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_front_effect/ch43_front_effect2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_front_effect/ch43_front_effect3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch43_front_effect/ch43_front_effect4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect2_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect/ch44_effect2_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect_moon/ch44_effect_moon01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect_moon/ch44_effect_moon02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect_moon/ch44_effect_moon03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch44_effect_moon/ch44_effect_moon04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect1_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect2_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch46_effect/ch46_effect2_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect3_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect3_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect3_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect3_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_effect/ch49_effect3_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_tm01_bg/ch49_tm01_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_tm01_bg/ch49_tm01_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_tm01_bg/ch49_tm01_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_tm01_bg/ch49_tm01_bg4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch49_tm01_bg/ch49_tm01_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect01_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect02_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch50_effect/ch50_effect03_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect01_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect01_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect02_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch51_effect/ch51_effect02_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect03_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect03_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect04_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect04_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect04_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect04_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect05_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect05_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect05_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect05_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect06_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect06_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect06_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect08_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect08_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect08_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect08_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect09_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect09_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect09_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect/ch52_effect09_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect07_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect07_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect10_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect10_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect10_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect10_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch52_effect_under/ch52_effect10_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect00_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect00_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect00_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect00_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect04_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect04_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch53_effect/ch53_effect06_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect00_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect00_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect02_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect04_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect04_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch54_effect/ch54_effect05_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect03_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect03_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect04_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect05_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect06_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect06_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect06_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect06_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect06_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect/ch55_effect06_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect00_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect01_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_effect_whale/ch55_effect02_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch55_jelly/ch55_jelly3_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_jp2 A_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_jp2 A_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_jp2A_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_jp2B_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_jp2B_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_jp2B_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_sdA_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_sdA_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_sdA_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_sdB_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_sdB_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_sdB_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/ch56_tm01_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01/epN04_tm01_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01_bg/ch56_tm01_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01_bg/ch56_tm01_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01_bg/ch56_tm01_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch56_tm01_bg/ch56_tm01_bg_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_arrow_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_arrow_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_arrow_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_arrow_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch57_effect/ch57_effect_horse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp1B_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp1B_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp1B_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp1B_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp2B_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp2B_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp2B_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_jp2B_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdB_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdB_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdB_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdB_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdB_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdC_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdC_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdD_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdD_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdD_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdD_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_crash_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_crash_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_crash_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_endloop_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_endloop_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sd_ing_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_sdswing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01/ch58_tm01_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01_bg/ch58_tm01_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01_bg/ch58_tm01_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch58_tm01_bg/ch58_tm01_bg_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect01_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect02_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect03_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect04_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect05_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect06_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect07_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_effect/ch59_effect08_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_jelly/ch59_jelly01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_jelly/ch59_jelly02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch59_jelly/ch59_jelly03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_1_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_2_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_3_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_4_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_4_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_4_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_4_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_4_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_effect/ch60_effect_4_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_2_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_2_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_3_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_3_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_3_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_3_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_4_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_4_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch60_jelly/ch60_jelly_4_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_icon01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_icon02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_icon03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_penguin_0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_sleigh_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_sleigh_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_sleigh_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_sleigh_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_sleigh_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_effect/ch61_effect_sleigh_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_jelly/ch61_jelly_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_jelly/ch61_jelly_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_jelly/ch61_jelly_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch61_jelly/ch61_jelly_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_effect/ch62_effect_0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch62_jelly/ch62_jelly01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_3_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_3_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_4_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_5_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_5_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_5_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_5_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_5_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_6_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_6_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_6_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_6_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect1/ch63_effect1_6_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect00_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect00_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_down_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_down_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_down_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_down_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_up_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_effect2/ch63_effect_up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_1_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_2_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch63_jelly/ch63_jelly_3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch64_jelly/ch64_jelly_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect0_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect0_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect2_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect2_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect2_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect3_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect4_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect4_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect4_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect5_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect6_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect6_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect6_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_effect/ch65_effect6_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch65_jelly/ch65_jelly_3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_0_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_1_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_2_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_effect/ch66_effect_3_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_3_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_3_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_3_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_jelly/ch66_jelly_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm81_bg/ch66_tm81_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm81_bg/ch66_tm81_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm81_bg/ch66_tm81_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm81_bg/ch66_tm81_bg4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm81_bg/ch66_tm81_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm82_bg/ch66_tm82_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm82_bg/ch66_tm82_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm82_bg/ch66_tm82_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm83/ch66_tm83_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm83/ch66_tm83_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm83/ch66_tm83_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm83_bg/ch66_tm83_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm83_bg/ch66_tm83_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch66_tm83_bg/ch66_tm83_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect1_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_effect/ch67_effect2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_jelly/ch67_jelly1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_jelly/ch67_jelly2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_jelly/ch67_jelly3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_jelly/ch67_jelly4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_jelly/ch67_jelly5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_tm01/ch67_tm01_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_tm01/ch67_tm01_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_tm01/ch67_tm01_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_tm01/ch67_tm01_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_tm01/ch67_tm01_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch67_tm01/ch67_tm01_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect1_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect1_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect1_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect1_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect2_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect2_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect2_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect2_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect3_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect4_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect5_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect5_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect5_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect5_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect5_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect/ch68_effect5_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect6_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect6_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect6_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect6_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect6_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect6_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect7_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect7_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect7_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect7_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect8_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect9_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect9_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect9_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch68_effect_back/ch68_effect9_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_effect_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_effect_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_effect_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_effect_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_effect_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_effect_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_jelly_effect_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_jelly_effect_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_effect/ch69_jelly_effect_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_jelly/ch69_jelly_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_jelly/ch69_jelly_02_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_jelly/ch69_jelly_02_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_jelly/ch69_jelly_02_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_jelly/ch69_jelly_02_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch69_jelly/ch69_jelly_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_0_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_0_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_0_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_0_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_0_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_0_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_1_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_1_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_1_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_1_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_1_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_1_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_2_0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_3_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_3_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_3_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_4_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_4_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_4_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_4_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_4_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_5_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_5_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_5_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_5_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_5_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_5_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_7_0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_8_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_effect/ch70_effect_9_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch70_jelly/ch70_jelly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/ch71_jelly/ch71_jelly_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm81_ch36_bg/tm81_ch36_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm81_ch36_bg/tm81_ch36_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm81_ch36_bg/tm81_ch36_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm82_ch36_bg/tm82_ch36_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm82_ch36_bg/tm82_ch36_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm82_ch36_bg/tm82_ch36_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm82_ch36_bg/tm82_ch36_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm83_ch36_bg/tm83_ch36_bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm83_ch36_bg/tm83_ch36_bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm83_ch36_bg/tm83_ch36_bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Cookie Skill Effects and Jellies/tm83_ch36_bg/tm83_ch36_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/1. The Witch's Oven/epN01_tm01_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/10. Crystal Jelly Cave/epN01_tm10_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mn_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mn_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mnbk_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mnbk_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mnbk_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mnbk_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_mnbk_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/11. Cookie Kingdom Ruins/epN01_tm11_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/2. The Witch's Kitchen/epN01_tm02_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/3. The Witch's Forest Road/epN01_tm03_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_tb2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/4. Underground Tunnel/epN01_tm04_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/5. Sunflower Forest/epN01_tm05_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/6. Daytime Beach/epN01_tm06_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/7. Nighttime Beach/epN01_tm07_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/8. Ice Cream Candy Mountains/epN01_tm08_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_end_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_end_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_end_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_end_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_end_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_ing_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_ing_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_bl1_ing_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_fh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp1up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2up_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2up_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2up_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2up_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jp2up_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jpnoti_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_jpnoti_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_sdA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_sdB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_tb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Episode 1 - Escape from the Oven/9. Cream Puff Canyon/epN01_tm09_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/General Effects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/General Jellies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Mobile - Cookie Run - Episode 1 - Escape from the Oven.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/jelly_ground.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/obstacle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/obstacle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/obstacle3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/playing_jelly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/조작법.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/bgm sound/1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/bgm sound/2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/bgm sound/3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/bgm sound/4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Bard_Destruction.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Bard_Life.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Bard_Richness.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/CheerLeader_CallFriends.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/CheerLeader_Friends.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Cherry_Bomb.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Cherry_Throwing_Mad.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Cherry_Throwing_Normal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Figure_CriticalScore.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Figure_NormalScore.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Gumiho_Trans.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/InviteNinja_Teleport.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Magician_ChainLightning.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Magician_ChangeStart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Magician_FlightEnd.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Magician_FlightStart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Magician_ObsExplosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/PinkCandyPet_AttractBearJellyMeteor.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/PinkCandyPet_BearMeteorFall.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Ranger_ShotRifle.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Rescue_Blast_End.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Rescue_Blast_Ready.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Rescue_Blast_Start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/RockStar_Note_Spreads_Normal_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/RockStar_Note_Spreads_Normal_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/RockStar_Note_Spreads_Normal_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/RockStar_Note_Spreads_Perfect_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/RockStar_Note_Spreads_Perfect_02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/RockStar_Note_Spreads_Perfect_03.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/Rockstar_Gauge_Full_Notify.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SnowSugar_Summon1Start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SnowSugar_Summon2End.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SnowSugar_Summon2Start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SoundEff_ObstacleHeart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SoundEffect_MagicalGirlMagicShot.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SpotLight_Activated.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SuperDevil_ChangeStart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SuperDevil_FlightEnd.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SuperDevil_FlightStart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SuperHero_ChangeStart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SuperHero_FlightEnd.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/SuperHero_FlightStart.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_fever.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_fever2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_fever2_rockstar.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_fever3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_fever3_rockstar.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_fever_rockstar.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_lobby.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_main.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_main2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_main3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/bgm_main_rockstar.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch01jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch01slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch02jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch02slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch03jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch03slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch04jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch04slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch05jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch05slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch06jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch06slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch07jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch07slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch08jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch08slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch09jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch09slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch10jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch10slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch11jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch11slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch12jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch12slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch13jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch13slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch14jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch14slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch15jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch15slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch16jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch16slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch18jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch18slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch19jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch19slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch20jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch20passive.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch20slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch21jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch21passive.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch21slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch22jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch22slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch23jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch23slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch24jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch24jump_woman.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch24slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch24slide_woman.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch25jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch25slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch26jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch26passive.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch26slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch27jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch27jump_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch27jump_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch27slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch27slide_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch27slide_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch28jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch28slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch29jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch29slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch30jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch30slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch31jump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ch31slide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_BigBearJelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_BigCoinJelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_GoldenBellJelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_SoulJelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_alphabet.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_coin.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_combo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_dragon_start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_end.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_ghostmode_pass.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_ghostmode_start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_giantjump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_giantland.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_gold.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_ijelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_jelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_obs1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_obs2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_obs3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_relay.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/g_start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_coin.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_feverin.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_giant.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_invincible.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_jelly.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_large_energy.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_magnet.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/i_small_energy.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/pf_MoveDownFloor.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/pf_MoveDownJump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/pf_MoveDownSlide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/pf_PillarOfFire.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/pf_PopUpObstacle.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/pf_SlowDownSlide.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_extrascore.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_levelup.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_medal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_newrecord.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_page.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_passed.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_score.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/r_unlock.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rockstar_note_spreads_full.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rockstar_note_spreads_partial.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rp_egg_crack2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rp_result_a.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rp_result_coin.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rp_result_s.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rt_loading.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rt_move_box.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/rt_open_box.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/s_buy_success.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/s_random_boost.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ui_1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ui_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ui_3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ui_treasure_equip.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ut_loading.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ut_loading_done.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ut_result_fail1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ut_result_fail2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/effect sound/ut_result_success.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/개발범위.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/개발일정.PNG" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="66598560">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game_framework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/background.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gmae_framework.py" />
+        <option value="$PROJECT_DIR$/background.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1013" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Term Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Term Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2018-2DGP/Labs/Lecture09" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b041b167-8e77-487b-ba35-12d932bf77be" name="Default Changelist" comment="" />
+      <created>1539536737912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539536737912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1013" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24923077" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/game_framework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
