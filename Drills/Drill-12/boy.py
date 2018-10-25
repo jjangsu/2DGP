@@ -4,7 +4,7 @@ from ball import Ball
 import game_world
 
 # Boy Event
-RIGHT_DOWN, LEFT_DOWN, RIGHT_UP, LEFT_UP, SLEEP_TIMER, SPACE = range(6)
+RIGHT_DOWN, LEFT_DOWN, RIGHT_UP, LEFT_UP, SLEEP_TIMER, SPACE, SHIFT = range(7)
 
 
 key_event_table = {
@@ -12,7 +12,9 @@ key_event_table = {
     (SDL_KEYDOWN, SDLK_LEFT): LEFT_DOWN,
     (SDL_KEYUP, SDLK_RIGHT): RIGHT_UP,
     (SDL_KEYUP, SDLK_LEFT): LEFT_UP,
-    (SDL_KEYDOWN, SDLK_SPACE): SPACE
+    (SDL_KEYDOWN, SDLK_SPACE): SPACE,
+    (SDL_KEYDOWN, SDLK_LSHIFT): SHIFT,
+    (SDL_KEYDOWN, SDLK_RSHIFT): SHIFT
 }
 
 
@@ -112,17 +114,39 @@ class SleepState:
 
     pass
 
+class DashState:
+    @staticmethod
+    def enter(boy, event):
+        boy.frame = 0
+
+    @staticmethod
+    def exit(boy, event):
+        pass
+
+    @staticmethod
+    def do(boy):
+        boy.frame = (boy.frame + 1) % 8
+
+    @staticmethod
+    def draw(boy):
+        if boy.velocity == 1:
+            boy.image.clip_draw(boy.frame * 100, 100, 100, 100, boy.x, boy.y)
+        else:
+            boy.image.clip_draw(boy.frame * 100, 0, 100, 100, boy.x, boy.y)
+
 
 next_state_table = {
     IdleState: {RIGHT_UP: RunState, LEFT_UP: RunState,
                 RIGHT_DOWN: RunState, LEFT_DOWN: RunState,
-                SLEEP_TIMER:SleepState, SPACE: IdleState},
+                SLEEP_TIMER:SleepState, SPACE: IdleState,
+                SHIFT: IdleState},
     RunState: {RIGHT_UP: IdleState, LEFT_UP: IdleState,
                LEFT_DOWN: IdleState, RIGHT_DOWN: IdleState,
-               SPACE: RunState},
+               SPACE: RunState, SHIFT: DashState},
     SleepState: {LEFT_DOWN: RunState, RIGHT_DOWN:RunState,
                  LEFT_UP: RunState, RIGHT_UP: RunState,
-                 SPACE: IdleState}
+                 SPACE: IdleState, SHIFT: SleepState},
+    DashState: {SHIFT: DashState}
 }
 
 class Boy:
