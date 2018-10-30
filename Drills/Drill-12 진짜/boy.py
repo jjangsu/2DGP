@@ -1,6 +1,7 @@
 import game_framework
 from pico2d import *
 from ball import Ball
+import math
 
 import game_world
 
@@ -46,9 +47,8 @@ class IdleState:
             boy.velocity -= RUN_SPEED_PPS
         elif event == LEFT_UP:
             boy.velocity += RUN_SPEED_PPS
-        boy.privius = 0.0
+        boy.privius = get_time()
         boy.current = 0
-
 
     @staticmethod
     def exit(boy, event):
@@ -59,12 +59,10 @@ class IdleState:
     @staticmethod
     def do(boy):
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
+
         boy.current = get_time()
-        if boy.current - boy.privius >= 2.0:
+        if boy.current - boy.privius >= 10.0:
             boy.add_event(SLEEP_TIMER)
-
-
-
 
     @staticmethod
     def draw(boy):
@@ -117,7 +115,7 @@ class SleepState:
     def enter(boy, event):
         global ghost
         boy.frame = 0
-        ghost = Ghost()
+        ghost = Ghost(boy)
 
     @staticmethod
     def exit(boy, event):
@@ -128,7 +126,7 @@ class SleepState:
     def do(boy):
         global ghost
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
-        ghost.update()
+        ghost.update(boy)
 
     @staticmethod
     def draw(boy):
@@ -147,7 +145,7 @@ class SleepState:
 
 next_state_table = {
     IdleState: {RIGHT_UP: RunState, LEFT_UP: RunState, RIGHT_DOWN: RunState, LEFT_DOWN: RunState, SLEEP_TIMER: SleepState, SPACE: IdleState},
-    RunState: {RIGHT_UP: IdleState, LEFT_UP: IdleState, LEFT_DOWN: IdleState, RIGHT_DOWN: IdleState, SPACE: RunState},
+    RunState: {RIGHT_UP: IdleState, LEFT_UP: IdleState, LEFT_DOWN: RunState, RIGHT_DOWN:  RunState, SPACE: RunState},
     SleepState: {LEFT_DOWN: RunState, RIGHT_DOWN: RunState, LEFT_UP: RunState, RIGHT_UP: RunState, SPACE: IdleState}
 }
 
@@ -186,7 +184,7 @@ class Boy:
     def draw(self):
         self.cur_state.draw(self)
         # fill here
-        self.font.draw(self.x - 60, self.y + 50, '(Time: %3.2f)' % get_time(), (255, 255, 0))
+        self.font.draw(self.x - 60, self.y + 50, '(Time: %3.2f)' % (get_time() - 0.8) , (255, 255, 0))
 
     def handle_event(self, event):
         if (event.type, event.key) in key_event_table:
@@ -196,20 +194,44 @@ class Boy:
 
 
 class Ghost:
-    def __init__(self):
-        self.x, self.y = 1600 // 2 + PIXEL_PER_METER * 3, 90
+    def __init__(self, boy):
+        self.x, self.y = boy.x , boy.y
         self.image = load_image('animation_sheet.png')
         self.dir = 1
         self.velocity = 0
         self.frame = 0
+        self.degree = 90.0
+        self.pri = 0.0
+        self.cur = 0.0
         pass
 
     def add_event(self, event):
         pass
 
-    def update(self):
-      self.frame = (self.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
-      pass
+    def update(self, boy):
+        self.cur = get_time()
+
+        if self.cur - self.pri < 2.6: # not self.y >= 90 + PIXEL_PER_METER * 3:
+            self.y += PIXEL_PER_METER * 0.1
+            if self.dir == 1:
+                self.x += PIXEL_PER_METER * 0.05
+            elif self.dir == -1:
+                self.x -= PIXEL_PER_METER * 0.05
+
+            if self.x < 1600 // 2 - PIXEL_PER_METER * 0.05 * 4:
+                self.dir = 1
+            elif self.x > 1600 // 2 + PIXEL_PER_METER * 0.05 * 4:
+                self.dir = -1
+
+        else:
+            self.degree += 3.14 * (720 / 60) / 180
+            self.x = boy.x + PIXEL_PER_METER * 3 * math.cos(self.degree)
+            self.y = boy.y + PIXEL_PER_METER * 3 * math.sin(self.degree)
+
+
+
+        self.frame = (self.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
+        pass
 
     def draw(self):
       self.image.opacify(0.5)
