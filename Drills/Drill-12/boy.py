@@ -167,6 +167,7 @@ next_state_table = {
                 SPACE: DashState}
 }
 
+
 class Boy:
 
     def __init__(self):
