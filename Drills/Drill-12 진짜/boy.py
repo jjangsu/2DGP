@@ -181,3 +181,24 @@ class Boy:
             self.add_event(key_event)
 
 
+
+class Ghost:
+    def __init__(self):
+        pass
+
+
+    def fire_ball(self):
+       pass
+
+
+    def add_event(self, event):
+        pass
+
+    def update(self):
+      pass
+
+    def draw(self):
+      pass
+
+    def handle_event(self, event):
+      pass
