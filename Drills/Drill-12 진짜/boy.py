@@ -46,7 +46,8 @@ class IdleState:
             boy.velocity -= RUN_SPEED_PPS
         elif event == LEFT_UP:
             boy.velocity += RUN_SPEED_PPS
-        boy.timer = 1000
+        boy.privius = 0.0
+        boy.current = 0
 
     @staticmethod
     def exit(boy, event):
@@ -57,8 +58,8 @@ class IdleState:
     @staticmethod
     def do(boy):
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
-        boy.timer -= 1
-        if boy.timer == 0:
+        boy.current = get_time()
+        if boy.current - boy.privius >= 10.0:
             boy.add_event(SLEEP_TIMER)
 
     @staticmethod
@@ -184,12 +185,12 @@ class Boy:
 
 class Ghost:
     def __init__(self):
+        self.x, self.y = 1600 // 2, 90
+        self.image = load_image('animation_sheet.png')
+        self.dir = 1
+        self.velocity = 0
+        self.frame = 0
         pass
-
-
-    def fire_ball(self):
-       pass
-
 
     def add_event(self, event):
         pass
