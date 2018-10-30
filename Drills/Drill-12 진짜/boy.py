@@ -192,7 +192,6 @@ class Boy:
             self.add_event(key_event)
 
 
-
 class Ghost:
     def __init__(self, boy):
         self.x, self.y = boy.x , boy.y
@@ -201,8 +200,8 @@ class Ghost:
         self.velocity = 0
         self.frame = 0
         self.degree = 90.0
-        self.pri = 0.0
-        self.cur = 0.0
+        self.pri = get_time()
+        self.cur = get_time()
         pass
 
     def add_event(self, event):
@@ -211,7 +210,7 @@ class Ghost:
     def update(self, boy):
         self.cur = get_time()
 
-        if self.cur - self.pri < 2.6: # not self.y >= 90 + PIXEL_PER_METER * 3:
+        if self.cur - self.pri < 0.7: # not self.y >= 90 + PIXEL_PER_METER * 3:
             self.y += PIXEL_PER_METER * 0.1
             if self.dir == 1:
                 self.x += PIXEL_PER_METER * 0.05
@@ -228,15 +227,13 @@ class Ghost:
             self.x = boy.x + PIXEL_PER_METER * 3 * math.cos(self.degree)
             self.y = boy.y + PIXEL_PER_METER * 3 * math.sin(self.degree)
 
-
-
         self.frame = (self.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
         pass
 
     def draw(self):
-      self.image.opacify(0.5)
-      self.image.clip_draw(int(self.frame) * 100, 300, 100, 100, self.x, self.y)
-      pass
+        self.image.opacify(0.5)
+        self.image.clip_draw(int(self.frame) * 100, 300, 100, 100, self.x, self.y)
+        pass
 
     def handle_event(self, event):
-      pass
+        pass
