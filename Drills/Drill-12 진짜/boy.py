@@ -49,6 +49,7 @@ class IdleState:
         boy.privius = 0.0
         boy.current = 0
 
+
     @staticmethod
     def exit(boy, event):
         if event == SPACE:
@@ -59,8 +60,11 @@ class IdleState:
     def do(boy):
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
         boy.current = get_time()
-        if boy.current - boy.privius >= 10.0:
+        if boy.current - boy.privius >= 2.0:
             boy.add_event(SLEEP_TIMER)
+
+
+
 
     @staticmethod
     def draw(boy):
@@ -68,6 +72,7 @@ class IdleState:
             boy.image.clip_draw(int(boy.frame) * 100, 300, 100, 100, boy.x, boy.y)
         else:
             boy.image.clip_draw(int(boy.frame) * 100, 200, 100, 100, boy.x, boy.y)
+
 
 
 class RunState:
@@ -95,7 +100,6 @@ class RunState:
     @staticmethod
     def do(boy):
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
-        # fill here
         boy.x += boy.velocity * game_framework.frame_time
         boy.x = clamp(25, boy.x, 1600 - 25)
 
@@ -111,22 +115,30 @@ class SleepState:
 
     @staticmethod
     def enter(boy, event):
+        global ghost
         boy.frame = 0
+        ghost = Ghost()
 
     @staticmethod
     def exit(boy, event):
+        global ghost
         pass
 
     @staticmethod
     def do(boy):
+        global ghost
         boy.frame = (boy.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
+        ghost.update()
 
     @staticmethod
     def draw(boy):
+        global ghost
         if boy.dir == 1:
             boy.image.clip_composite_draw(int(boy.frame) * 100, 300, 100, 100, 3.141592 / 2, '', boy.x - 25, boy.y - 25, 100, 100)
         else:
             boy.image.clip_composite_draw(int(boy.frame) * 100, 200, 100, 100, -3.141592 / 2, '', boy.x + 25, boy.y - 25, 100, 100)
+
+        ghost.draw()
 
 
 
@@ -185,7 +197,7 @@ class Boy:
 
 class Ghost:
     def __init__(self):
-        self.x, self.y = 1600 // 2, 90
+        self.x, self.y = 1600 // 2 + PIXEL_PER_METER * 3, 90
         self.image = load_image('animation_sheet.png')
         self.dir = 1
         self.velocity = 0
@@ -196,9 +208,12 @@ class Ghost:
         pass
 
     def update(self):
+      self.frame = (self.frame + FRAMES_PER_ACTION * ACTION_PER_TIME * game_framework.frame_time) % 8
       pass
 
     def draw(self):
+      self.image.opacify(0.5)
+      self.image.clip_draw(int(self.frame) * 100, 300, 100, 100, self.x, self.y)
       pass
 
     def handle_event(self, event):
