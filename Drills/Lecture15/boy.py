@@ -81,7 +81,6 @@ class WalkingState:
         max_m = (right_t_y - right_b_y) / (right_t_x - right_b_x)
         max_x = (boy.y - 73) / max_m + 1813
 
-        # fill here
         boy.x = clamp(min_x, boy.x, max_x)
         boy.y = clamp(left_b_y, boy.y, left_t_y)
 
