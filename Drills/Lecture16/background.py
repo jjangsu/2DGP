@@ -2,7 +2,6 @@ import random
 
 from pico2d import *
 
-
 class FixedBackground:
 
     def __init__(self):
