@@ -51,7 +51,6 @@ def enter():
     for ball in balls:
         ball.set_center_object(boy)
 
-
 def exit():
     game_world.clear()
 
