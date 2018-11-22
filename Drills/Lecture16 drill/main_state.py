@@ -50,7 +50,6 @@ def enter():
 
     for ball in balls:
         ball.set_center_object(boy)
-        background.set_center_ball(ball)
 
 
 def exit():

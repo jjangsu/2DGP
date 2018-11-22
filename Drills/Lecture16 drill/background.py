@@ -17,12 +17,6 @@ class FixedBackground:
         self.center_object = boy
         pass
 
-    def set_center_ball(self, boy):
-        # fill here
-        self.center_ball = boy
-        pass
-
-
     def draw(self):
         # fill here
         self.image.clip_draw_to_origin(

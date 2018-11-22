@@ -20,8 +20,6 @@ class Ball:
     def get_bb(self):
         return self.x - 10, self.y - 10, self.x + 10, self.y + 10
 
-        # return self.x - main_state.boy.x - 10 + 640, self.y - main_state.boy.y - 10 + 300, self.x - main_state.boy.x + 10 + 640, self.y - main_state.boy.y + 10 + 300
-
     def set_center_object(self, back):
         # fill here
         self.center_object = back
@@ -32,12 +30,6 @@ class Ball:
         tmp_x = clamp(400, main_state.boy.x, 1440)
         tmp_y = clamp(300, main_state.boy.y, 810)
         self.image.draw(self.x - tmp_x + 400, self.y - tmp_y + 300)
-        # self.image.draw(self.x - main_state.boy.x + 400, self.y - main_state.boy.y + 300)
-        # self.image.clip_draw_to_origin(
-        #     0, 0, 21, 21,
-        #     self.x, self.y,
-        #     21, 21
-        # )
         pass
 
     def update(self):
