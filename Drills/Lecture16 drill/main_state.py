@@ -28,7 +28,6 @@ def collide(a, b):
     if right_a < left_b: return False
     if top_a < bottom_b: return False
     if bottom_a > top_b: return False
-
     return True
 
 def enter():
