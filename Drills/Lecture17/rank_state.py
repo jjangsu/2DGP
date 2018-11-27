@@ -49,7 +49,7 @@ def draw():
     global font, image
     clear_canvas()
 
-    image.clip_draw(0, 0, 10, 10, 600, 450, 800, 400)
+    image.clip_draw(0, 0, 10, 10, 650, 430, 500, 400)
 
     font.draw(550, 600, '[Total Ranking]', (0, 0, 0))
     i = 550
