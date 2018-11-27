@@ -39,6 +39,8 @@ def enter():
     f.write(rank_list)
     f.close()
 
+    show_lattice()
+
 def update():
     pass
 
@@ -49,10 +51,11 @@ def draw():
 
     image.clip_draw(0, 0, 10, 10, 600, 450, 800, 400)
 
-    i = 600
+    font.draw(550, 600, '[Total Ranking]', (0, 0, 0))
+    i = 550
     for data in ranking_list:
-        font.draw(400, i, '#%d' % data['rank'], (0, 0, 0))
-        font.draw(500, i, 'record: %3f' % data['score'], (0, 0, 0))
+        font.draw(500, i, '#%d.' % data['rank'], (0, 0, 0))
+        font.draw(600, i, 'score: %3f' % data['score'], (0, 0, 0))
         i -= 30
 
     update_canvas()
